@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "892740941535",
+    "firebase_url": "https://medicobuddy-18a8b.firebaseio.com",
+    "project_id": "medicobuddy-18a8b",
+    "storage_bucket": "medicobuddy-18a8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892740941535:android:be848617663126d6",
+        "android_client_info": {
+          "package_name": "com.example.user.medicobuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892740941535-sooivptc30kg6lfdkf0tshi06rtl20th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlr-BgFq7DxY124pYQCcDe8m2ADaVs7xc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
