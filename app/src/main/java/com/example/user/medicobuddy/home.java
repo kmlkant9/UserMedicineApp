@@ -121,8 +121,9 @@ public class home extends Fragment implements AdapterView.OnItemSelectedListener
                                                 googleMap.setMyLocationEnabled(true);
 
                                                 // For dropping a marker at a point on the Map
-
-                                                LatLng sydney = new LatLng(-34, 151);
+                                                double lat=med.child("Latitude").getValue;
+                                                double log=med.child("Longitude").getValue;
+                                                LatLng sydney = new LatLng(lat, log);
                                                 googleMap.addMarker(new MarkerOptions().position(sydney).title("Marker Title").snippet("Marker Description"));
 
                                                 // For zooming automatically to the location of the marker
